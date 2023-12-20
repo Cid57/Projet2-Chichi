@@ -1,0 +1,263 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #bdc3c7;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Glass Antiqua", cursive;
+}
+
+.page-principale {
+  width: 100vw;
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/famille-chichi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  margin-bottom: 90px;
+}
+
+.contenue {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  color: white;
+}
+
+.contenue h1 {
+  font-size: 80px;
+}
+
+.contenue button {
+  border-radius: 50px;
+  margin: 20px;
+  padding: 12px 20px 12px 20px;
+  text-align: center;
+  border: solid 2px;
+  border-color: white;
+  background: #db1295;
+  color: white;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+button:hover {
+  background-color: black;
+}
+
+.chihuahua-lof {
+  width: 100vw;
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/males.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 80px;
+}
+
+.chiots {
+  width: 100vw;
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/bebe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.nos-chiots {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  color: white;
+}
+
+.nos-chiots h1 {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  font-size: 80px;
+}
+
+.navbar {
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  background: black;
+  position: fixed;
+}
+
+.navbar a {
+  padding-left: 6px;
+  color: #db1295;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.navbar2 a {
+  padding-left: 6px;
+  color: #db1295;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.navbar :hover {
+  color: white;
+}
+
+.navbar2 :hover {
+  color: black;
+}
+
+.navbar .logo {
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.navbar2 .logo {
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.nav-links li {
+  padding-top: 10px;
+}
+
+.navbar .nav-links ul {
+  display: flex;
+}
+
+.navbar2 .nav-links ul {
+  display: flex;
+}
+
+.navbar .nav-links ul li {
+  margin: 0 25px;
+}
+
+.navbar2 .nav-links ul li {
+  margin: 0 25px;
+}
+
+.bloc-image img {
+  float: left;
+  padding-left: 30px;
+  margin-left: 30px;
+  padding: 10px;
+  width: 30%;
+  box-sizing: border-box;
+}
+
+.males h1 {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  font-size: 80px;
+}
+
+.males {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  color: white;
+}
+
+.tableau th {
+  background-color: #bdc3c7;
+}
+
+.tableau td {
+  background-color: #bdc3c7;
+}
+
+.container img {
+  margin-bottom: 30px;
+}
+
+.container #tribu {
+  margin-right: 50px;
+  margin-top: 0;
+}
+
+.container p {
+  line-height: 1.9em;
+}
+.container h2 {
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+.container h1 {
+  font-size: 60px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+li::before {
+  list-style-type: none;
+}
+
+.lof {
+  padding: 60px 0 60px 0;
+  background-color: black;
+}
+
+.lof h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 60px;
+}
+
+.lof img {
+  display: flex;
+  justify-content: center;
+}
+
+.naya {
+  margin: 0 90px 30px 90px;
+  padding: 0 90px 0 90px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pied_de_page li {
+  display: flex;
+}
+
+.pied_de_page ul {
+  display: flex;
+  list-style: none;
+  margin: auto;
+}
+
+.pied_de_page a {
+  padding: 20px;
+  margin: 20px;
+  text-decoration: none;
+  color: #db1295;
+}
+
+.pied_de_page {
+  margin-top: 100px;
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  background: black;
+}
+
+.symbol img {
+  margin: 100px 500px 0px 650px;
+}
